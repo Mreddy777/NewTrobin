@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-21T14:10:09 IST" name="Default suite" finished-at="2022-11-21T14:10:16 IST" duration-ms="6961">
+  <suite started-at="2022-11-21T15:27:38 IST" name="Default suite" finished-at="2022-11-21T15:27:45 IST" duration-ms="7101">
     <groups>
     </groups>
-    <test started-at="2022-11-21T14:10:09 IST" name="Default test" finished-at="2022-11-21T14:10:16 IST" duration-ms="6961">
+    <test started-at="2022-11-21T15:27:38 IST" name="Default test" finished-at="2022-11-21T15:27:45 IST" duration-ms="7101">
       <class name="com.Trobin.Trobin.OpenBrowser">
-        <test-method signature="open()[pri:0, instance:com.Trobin.Trobin.OpenBrowser@5c33f1a9]" started-at="2022-11-21T14:10:09 IST" name="open" finished-at="2022-11-21T14:10:16 IST" duration-ms="6903" status="PASS">
+        <test-method signature="open()[pri:0, instance:com.Trobin.Trobin.OpenBrowser@38c6f217]" started-at="2022-11-21T15:27:38 IST" name="open" finished-at="2022-11-21T15:27:45 IST" duration-ms="7054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
