@@ -9,13 +9,14 @@ import org.testng.annotations.Test;
 public class OpenBrowser {
 	
 	@Test
-	public void open() {
+	public void open() throws Throwable {
 		
 	
 		
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.youtube.com/results?search_query=ponnenathe+pakanum+song");
+	Thread.sleep(3000);
 		driver.findElement(By.xpath("//a[@title='Ponni Nadhi - Lyric Video | PS1 Tamil | Mani Ratnam | AR Rahman | Karthi | Ponniyin Selvan Part-1']")).click();
 		
 		
