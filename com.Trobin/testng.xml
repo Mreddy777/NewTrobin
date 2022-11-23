@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.Trobin.Trobin.OpenBrowser"/>
+      <class name="com.Trobin.Trobin.Login_to_App"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

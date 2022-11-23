@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-21T15:27:38 IST" name="Default suite" finished-at="2022-11-21T15:27:45 IST" duration-ms="7101">
+  <suite started-at="2022-11-23T12:57:33 IST" name="Default suite" finished-at="2022-11-23T12:57:36 IST" duration-ms="2990">
     <groups>
     </groups>
-    <test started-at="2022-11-21T15:27:38 IST" name="Default test" finished-at="2022-11-21T15:27:45 IST" duration-ms="7101">
-      <class name="com.Trobin.Trobin.OpenBrowser">
-        <test-method signature="open()[pri:0, instance:com.Trobin.Trobin.OpenBrowser@38c6f217]" started-at="2022-11-21T15:27:38 IST" name="open" finished-at="2022-11-21T15:27:45 IST" duration-ms="7054" status="PASS">
+    <test started-at="2022-11-23T12:57:33 IST" name="Default test" finished-at="2022-11-23T12:57:36 IST" duration-ms="2990">
+      <class name="com.Trobin.Trobin.Login_to_App">
+        <test-method is-config="true" signature="open()[pri:0, instance:com.Trobin.Trobin.Login_to_App@436813f3]" started-at="2022-11-23T12:57:33 IST" name="open" finished-at="2022-11-23T12:57:35 IST" duration-ms="2195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-      </class> <!-- com.Trobin.Trobin.OpenBrowser -->
+        <test-method signature="verify_Login()[pri:0, instance:com.Trobin.Trobin.Login_to_App@436813f3]" started-at="2022-11-23T12:57:35 IST" name="verify_Login" finished-at="2022-11-23T12:57:36 IST" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login -->
+      </class> <!-- com.Trobin.Trobin.Login_to_App -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
