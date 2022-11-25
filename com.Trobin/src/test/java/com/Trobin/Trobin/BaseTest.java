@@ -16,6 +16,8 @@ public static	WebDriver driver;
 	@BeforeMethod
 	public void open() throws Throwable {
 		
+		
+		
 	
 		
 	    driver=new ChromeDriver();

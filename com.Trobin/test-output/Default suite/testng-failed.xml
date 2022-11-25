@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Trobin.Trobin.Login_to_App">
+      <class name="com.Trobin.Trobin.Grid">
         <methods>
-          <include name="open"/>
-          <include name="verify_Login"/>
+          <include name="launch_browser"/>
         </methods>
-      </class> <!-- com.Trobin.Trobin.Login_to_App -->
+      </class> <!-- com.Trobin.Trobin.Grid -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
